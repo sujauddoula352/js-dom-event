@@ -16,3 +16,10 @@ const makePinkButton = document.getElementById('make-pink');
  makePinkButton.onclick = function makepink(){
     document.body.style.backgroundColor = 'pink'
  }
+ // option 4
+ const makePurpleButton = document.getElementById('make-purple');
+ makePurpleButton.addEventListener('click',makePurple)
+
+ function makePurple(){
+    document.body.style.backgroundColor ='purple'
+ }
