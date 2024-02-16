@@ -9,7 +9,7 @@ document.getElementById('event-listener').addEventListener('click',function(){
 })
 // option 2 recept
 document.getElementById('btn-update').addEventListener('click',function(){
-    const inputField = document.getElementById('input-field');
+   const inputField = document.getElementById('input-field');
    const innerText = inputField.value;
    const p =document.getElementById('default-text-display');
    p.innerText = innerText;
